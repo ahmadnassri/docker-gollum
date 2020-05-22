@@ -6,10 +6,8 @@ on:
       - master
 
 jobs:
-  tag:
+  release:
     runs-on: ubuntu-latest
-    outputs:
-      version: ${{ steps.semantic.outputs.version }}
     steps:
       - name: checkout
         uses: actions/checkout@v2
