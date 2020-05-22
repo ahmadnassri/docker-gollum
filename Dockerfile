@@ -6,7 +6,7 @@ LABEL maintainer="Ahmad Nassri <ahmad@ahmadnassri.com>"
 VOLUME /wiki
 WORKDIR /wiki
 
-RUN apk add --no-cache build-base build-deps
+RUN apk add --no-cache --virtual build-deps build-base
 RUN apk add --no-cache cmake
 RUN apk add --no-cache git
 RUN apk add --no-cache icu-dev icu-libs
