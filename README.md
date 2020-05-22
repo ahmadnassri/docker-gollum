@@ -29,4 +29,4 @@ services:
 > Map the the directory where Gollum will read files to `/wiki`
 
 > #### Image
-> For GitHub Package Registry, use `image: docker.pkg.github.com/ahmadnassri/github-gollum/main`
+> For GitHub Package Registry, use `image: docker.pkg.github.com/ahmadnassri/docker-gollum/docker-gollum`

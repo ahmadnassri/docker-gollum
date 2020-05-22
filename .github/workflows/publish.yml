@@ -18,7 +18,7 @@ jobs:
           - name: github package registry
             password: GITHUB_TOKEN
             registry: docker.pkg.github.com
-            repository: ahmadnassri/docker-gollum
+            repository: ahmadnassri/docker-gollum/docker-gollum
 
     steps:
       - name: checkout
