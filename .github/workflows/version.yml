@@ -1,0 +1,27 @@
+name: semantic release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.semantic.outputs.version }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: setup node.js
+        uses: actions/setup-node@v1
+
+      - name: install semantic-release
+        run: npm install --global semantic-release @semantic-release/exec
+
+      - name: run semantic-release
+        id: semantic
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
