@@ -1,6 +1,6 @@
 # Gollum Wiki Container
 
-a [Gollum Wiki](https://github.com/gollum/) container for local runs.
+a [Gollum Wiki](https://github.com/gollum/gollum) container for local runs.
 
 ## Flavors
 
