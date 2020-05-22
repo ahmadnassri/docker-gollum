@@ -18,6 +18,6 @@ RUN gem install github-markdown
 RUN apk del build-base build-deps cmake git icu-dev icu-libs libressl-dev
 
 ENTRYPOINT ["gollum"]
-CMD ["--port", "8080", "--live-preview"]
+CMD ["--port", "8080"]
 
 EXPOSE 8080
