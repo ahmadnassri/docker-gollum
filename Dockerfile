@@ -15,6 +15,5 @@ RUN gem install gollum
 RUN apk del build-base build-deps cmake openssl-dev
 
 ENTRYPOINT ["gollum"]
-CMD ["--port", "8080"]
 
-EXPOSE 8080
+EXPOSE 4567
