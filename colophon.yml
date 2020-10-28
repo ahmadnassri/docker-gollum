@@ -1,0 +1,8 @@
+version: 2.0
+
+id: gollum
+
+about:
+  title: Gollum Wiki Container
+  description: a Gollum Wiki container for local runs.
+  repository: ahmadnassri/docker-gollum
