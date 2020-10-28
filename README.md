@@ -35,15 +35,15 @@ services:
 > Twitter: [@AhmadNassri](https://twitter.com/AhmadNassri)
 
 [license-url]: LICENSE
-[license-img]: https://badgen.net/github/license/ahmadnassri/docker-github-pages
+[license-img]: https://badgen.net/github/license/ahmadnassri/docker-gollum
 
-[release-url]: https://github.com/ahmadnassri/docker-github-pages/releases
-[release-img]: https://badgen.net/github/release/ahmadnassri/docker-github-pages
+[release-url]: https://github.com/ahmadnassri/docker-gollum/releases
+[release-img]: https://badgen.net/github/release/ahmadnassri/docker-gollum
 
-[super-linter-url]: https://github.com/ahmadnassri/docker-github-pages/actions?query=workflow%3Asuper-linter
-[super-linter-img]: https://github.com/ahmadnassri/docker-github-pages/workflows/super-linter/badge.svg
+[super-linter-url]: https://github.com/ahmadnassri/docker-gollum/actions?query=workflow%3Asuper-linter
+[super-linter-img]: https://github.com/ahmadnassri/docker-gollum/workflows/super-linter/badge.svg
 
-[semantic-url]: https://github.com/ahmadnassri/docker-github-pages/actions?query=workflow%3Arelease
+[semantic-url]: https://github.com/ahmadnassri/docker-gollum/actions?query=workflow%3Arelease
 [semantic-img]: https://badgen.net/badge/📦/semantically%20released/blue
 
 [size-url]: https://hub.docker.com/r/ahmadnassri/gollum
