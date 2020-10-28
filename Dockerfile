@@ -13,6 +13,7 @@ COPY Gemfile .
 RUN gem install -g
 
 RUN apk del build-base build-deps cmake openssl-dev
+RUN rm -rf /usr/lib/ruby/gems/*/cache/*.gem
 
 VOLUME /wiki
 WORKDIR /wiki
