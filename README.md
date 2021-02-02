@@ -28,7 +28,7 @@ services:
 ```
 
 > #### Volumes
-> 
+>
 > Map the the directory where Gollum will read files to `/wiki`
 
 ----
