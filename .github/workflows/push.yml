@@ -16,3 +16,8 @@ permissions: read-all
 jobs:
   main:
     uses: ahmadnassri/actions/.github/workflows/push-docker.yml@master
+    permissions:
+      packages: write
+      contents: write
+      statuses: write
+      pull-requests: write
