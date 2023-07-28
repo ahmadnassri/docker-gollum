@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     outputs:
-      image-name: ${{ steps.image.outputs.name }}
+      name: ${{ steps.image.outputs.name }}
 
     steps:
       - id: image
