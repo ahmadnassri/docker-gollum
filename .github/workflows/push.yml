@@ -79,8 +79,6 @@ jobs:
       - metadata
       - publish-strategy
 
-    timeout-minutes: 10
-
     if: ${{ needs.release.outputs.published == 'true' }}
 
     name: ${{ format('publish to {0}', matrix.registry) || 'publish-step' }}
