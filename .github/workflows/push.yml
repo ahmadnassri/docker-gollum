@@ -91,6 +91,7 @@ jobs:
       name: ${{ needs.image.outputs.name }}
       version: ${{ needs.release.outputs.version }}
       alias: ${{ needs.release.outputs.version-major }}
-      password: ${{ secrets[format('{0}_TOKEN', matrix.id)] }}
       platforms: ${{ matrix.platforms }}
       registry: ${{ matrix.registry }}
+    secrets:
+      password: ${{ secrets[format('{0}_TOKEN', matrix.id)] }}
