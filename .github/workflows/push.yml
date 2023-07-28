@@ -11,6 +11,8 @@ on:
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
 
+permissions: read-all
+
 jobs:
-  metadata:
+  main:
     uses: ahmadnassri/actions/.github/workflows/push-docker.yml@master
