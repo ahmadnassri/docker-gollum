@@ -13,7 +13,7 @@ a Gollum Wiki container for local runs.
 create a `docker-compose.yml` with the following:
 
 ``` yaml
-version: '3'
+version: 3
 
 services:
   gollum:
@@ -21,7 +21,7 @@ services:
     volumes:
       - $PWD:/wiki
     ports:
-      - 8080:8080
+      - 80:4567
 ```
 
 > #### Volumes
@@ -39,7 +39,7 @@ services:
 [release-img]: https://badgen.net/github/release/ahmadnassri/docker-gollum
 
 [size-url]: https://hub.docker.com/r/ahmadnassri/gollum
-[size-img]: https://badgen.net/docker/size/ahmadnassri/gollum
+[size-img]: https://badgen.net/docker/size/ahmadnassri/gollum?label=image%20size
 
 [docker-url]: https://hub.docker.com/r/ahmadnassri/gollum
 [docker-img]: https://badgen.net/badge/icon/docker%20hub?icon=docker&label
