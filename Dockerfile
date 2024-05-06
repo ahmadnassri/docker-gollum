@@ -1,3 +1,3 @@
-FROM gollumwiki/gollum:v5.3.2
+FROM gollumwiki/gollum:6.0.0
 
 HEALTHCHECK NONE
