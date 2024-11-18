@@ -1,8 +1,0 @@
-{
-  "name": ["gollum"],
-  "platforms": ["linux/amd64"],
-  "registry": [
-    { "id": "GITHUB", "url": "ghcr.io" },
-    { "id": "DOCKERHUB", "url": "docker.io" }
-  ]
-}
